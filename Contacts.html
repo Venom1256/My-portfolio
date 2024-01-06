@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- icons -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Rubik:wght@300;400;500;600;900&display=swap"
+            rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <a href="#" class="logo"><span>M</span>aniket</a>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html" >About</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <!-- ?<li><a href="Blog.html">Blog</a></li> -->
+                <li><a href="Contacts.html" class="active">Contacts</a></li>
+    
+            </ul>
+             
+            <div class="menu-btn">
+                <span>INTRO</span>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+
+        <div class="container2">
+            <h1>Connect With Me</h1>
+            <p>I would love to respond to your queries and help you succeed. <br>Feel free to get in touch with me</p>
+        
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Sent Your Request</h3>
+                <form >
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label >Name</label>
+                            <input type="text" placeholder="john ">
+                            
+                        </div>
+                        <div class="input-group">
+                            <label >Phone</label>
+                            <input type="text" placeholder="+1 412 520 3231 ">
+
+                        </div> 
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label >Email</label>
+                            <input type="text" placeholder="john32@gmail.com ">
+                            
+                        </div>
+                        <div class="input-group">
+                            <label >Subject</label>
+                            <input type="text" placeholder="Product Demo ">
+
+                        </div> 
+                    </div>
+                    <label for="">Message</label>
+                    <textarea  rows="5" placeholder="Your Message"></textarea>
+
+                    <button type="submit" onclick="callalert()">Submit</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach me</h3>
+
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>madaleaniket50@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+91 8080434516</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>1496,Airoli Naka,<br>Sector-1, Airoli,Navi-Mumbai,,<br>Thane, Maharashtra,400708</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="container">
+                <P>Copyright &copy;2023 Desined by <span class="designer">Aniket</span></P>
+            </div>
+         </footer>
+         <script>
+            function callalert(){
+                alert("Your requst has been sent");
+            }
+         </script>
+</body>
+</html>
